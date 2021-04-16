@@ -15,7 +15,6 @@ app.use(express.urlencoded({extended: true}));
 // app.use(express.static("public"));
 // app.use(express.static(__dirname + "/public"));
 
-
 // const knex = require("knex")({
 //     client: "pg",
 //     connection: {
