@@ -71,7 +71,7 @@
                         <input type="number" id="iMiles" name="mileage" value="<%= myvehicles[0].mileage %>"<%= myvehicles[0].type == "B" ? "disabled" : "" %>>
                         <br><br>
                         <input type="checkbox" id="sUsing" name="still_using" <%= myvehicles[0].still_using == "Y" ? "checked" : "" %>>
-                        <label for="sUsing">Check if Yes</label>
+                        <label for="sUsing">Is the vehicle still in use?</label>
                         <br><br>
                         <button type="submit">Save Changes</button>
                 </fieldset>
