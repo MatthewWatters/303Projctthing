@@ -30,7 +30,6 @@ app.get("/", (req, res) => {
     res.render("index", {});
     });
 
-
 app.get("/displayVehicle", (req, res) => {
     knex.select().from('vehicles').then(vehicles => {
         res.render("displayVehicle", {myvehicles: vehicles});
